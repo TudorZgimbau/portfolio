@@ -1,0 +1,29 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Item from "../components/Item.astro";
+---
+
+<Layout title="Tudor's projects">
+  <div
+    class="flex flex-col gap-14 pt-14 w-screen min-h-screen h-max bg-gradient-to-tr from-base-300 via-base-300 dark:via-black dark:to-black overflow-x-hidden"
+  >
+    <a
+      href="/"
+      class="absolute z-10 top-5 left-5 text-6xl p-2 dark:invert border-black border-2 rounded-xl h-10 w-10 cursor-pointer"
+    >
+      <img src="back.svg" class="h-full" />
+    </a>
+    <div class="prose mx-auto dark:prose-invert">
+      <Item
+        title="DataZard"
+        link="/projects/datazard"
+        description="an ambitious brand analytics platform that automated the online user feedback discovery, scrapping the internet to find available data, analysing it with powerful AI models and making business reports to help its customers"
+      />
+      <Item
+        title="Bytecrowds"
+        link="/projects/bytecrowds"
+        description="an easy to use serverless code sharing platform with minimalist design and its own analytics engine."
+      />
+    </div>
+  </div>
+</Layout>
