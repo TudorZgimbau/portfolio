@@ -8,13 +8,13 @@ Period: December 2021 - January 2022 \*
 
 Role: Full-stack developer, founder
 
-Tech stack: Next.js, Leaflet, daisyUI, Ably, QStash, Redis, Auth.js
+Tech stack: Next.js, Ably, QStash, Redis, Auth.js
 
-- for now, the project is not actively maintained, but there are plans to update and refactor some parts.
+\* For now, the project is not actively maintained, but there are plans to update and refactor some parts.
 
 # Project description
 
-Bytecrowds is an easy to use serverless code sharing platform with minimalist design and its own analytics engine.
+[Bytecrowds](https://www.bytecrowds.com) is an easy to use serverless code sharing platform with minimalist design and its own analytics engine.
 
 # My role
 
