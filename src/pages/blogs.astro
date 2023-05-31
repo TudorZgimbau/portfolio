@@ -4,21 +4,28 @@ import Item from "../components/Item.astro";
 ---
 
 <Layout title="Blog">
-    <div
-        class="flex flex-col gap-14 pt-14 w-screen min-h-screen h-max bg-gradient-to-tr from-base-300 via-base-300 dark:via-black dark:to-black overflow-x-hidden"
+  <div
+    class="flex flex-col gap-14 pt-14 w-screen min-h-screen h-max bg-gradient-to-tr from-base-300 via-base-300 dark:via-black dark:to-black overflow-x-hidden"
+  >
+    <a
+      href="/"
+      class="absolute z-10 top-5 left-5 text-6xl text-neutral p-2 dark:invert border-black border-2 rounded-xl h-10 w-10 cursor-pointer"
     >
-        <a
-            href="/"
-            class="absolute z-10 top-5 left-5 text-6xl text-neutral p-2 dark:invert border-black border-2 rounded-xl h-10 w-10 cursor-pointer"
-        >
-            <img src="back.svg" class="h-full" />
-        </a>
-        <div class="prose mx-auto dark:text-white">
-            <Item
-                title="test"
-                link="/blog/test"
-                description="some random text description description description description descriptiondescription"
-            />
-        </div>
+      <img src="back.svg" class="h-full" />
+    </a>
+    <div class="prose mx-auto dark:text-white">
+      <Item
+        title="Building a realtime emergency response system"
+        link="/blog/upstash1"
+      />
+      <Item
+        title="Realtime Code Sharing with Upstash Redis"
+        link="/blog/upstash2"
+      />
+      <Item
+        title="Career and business posts on LinkedIn"
+        link="https://www.linkedin.com/in/tudor-zgîmbău-a85274234/recent-activity/all/"
+      />
     </div>
+  </div>
 </Layout>
