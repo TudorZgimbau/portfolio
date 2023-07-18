@@ -63,6 +63,12 @@ Some of these things came naturally, and some of them posed troubles for me. I a
 
 In the end, according to the jury, we were the best in our category so I imagine a did a fairly good job 😎. I encourage you to read more about our project, [A.T.R.I.S.](https://www.projectcloud4.com/atris): someday, sometime, it might save someone's life.
 
+## Writing
+
+A.T.R.I.S. also gave me the chance to start content writing with an emphasis on technical implementations. That's when I started my collaboration with [Upstash](https://upstash.com) and brought my first piece of content on their blog: [Building a realtime emergency response system](https://upstash.com/blog/realtime-emergency-response).
+
+I enjoyed the combination of technical and creative work, which lead me to also write about the underlying benefits the serverless pattern brings to Bytecrowds: [Realtime Code Sharing with Upstash Redis](https://upstash.com/blog/realtime-code-sharing)
+
 # More business
 
 Bored? Sorry, I felt the need to write a separate chapter for this.
@@ -75,6 +81,39 @@ For me, it meant learning about how people with different backgrounds and passio
 
 Wanna see me wearing a suit? [Here it is the LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:7051248063037718528/)
 
-# Back to coding <3
+# Back to coding
 
-TBC
+Time passed by and I was craving to work on a project again. While I was exploring ways to add value to the developer community, I stumbled upon an idea: What if the idea of DX-focused serverless Redis could also benefit Python developers?
+
+Not waiting for too long, I contacted someone at Upstash and talked about creating a Python SDK for their Redis-compatible offering. At that time, there were some notable challenges:
+
+- I had some Python experience from DataZard (mainly back-end with Django and Flask), but it clearly wasn't enough to build such a thing from scratch;
+- The demand wasn't clearly known beforehand: what I was personally counting on was the importance of the language in different areas (especially all the things related to data);
+- The project was, in a way, a greenfield one. Almost all of the things, including the planning, the roadmap, and even some technical aspects changed while moving forward.
+
+And, as discouraging as that might sound, we made it through 🥳. A lot of hard work and an increasing adoption of AI technologies encouraged the project to continue and, after some very tough months, here's the announcement post: [Announcing Python Serverless Redis and Ratelimiting SDKs](https://upstash.com/blog/announcing-ratelimit-python).
+
+Noticed the `Ratelimiting` stuff? Thinking about limiting the requests-per-second of your serverless functions or long-running servers? The famous [upstash-ratelimit](https://github.com/upstash/ratelimit) now also comes in a Python version 😎.
+
+Authoring these two projects in the context of being in my last year of high school and preparing for the national exams wasn't easy. I did a few mistakes, refactored a faulty implementation, and over-think at times. What I find important, however, is the stuff I learned from this, including:
+
+- How to approach developer tooling
+- How to work on adaptive scheduling and make accurate estimates
+- Python at a fairly advanced level and the current state of its ecosystem
+
+Last but not least, I want to thank everyone involved in the project: without everyone's help, these releases wouldn't be the same or wouldn't have happened at all! At some point recently, I had to quit my hands-on involvement in the projects, mainly because of my exams. The reason you are able to use the SDK's **today** is the amazing guys who took over!
+
+# Future plans
+
+At the moment of writing this, I am not actively working on any project, besides doing some refactoring and improvements for Bytecrowds. I learned a lot in the last few years and decided to do an in-depth analysis of my career path, including the skills I should focus on and the way my experience fits in.
+
+That being said, feel free to contact me at any time to have a tech chat. If you're interested in my job status, however, I am not planning to work full-time until I get to know my college schedule but would be open to some freelance or part-time projects. Regarding the roles, I'm targeting the product area (did you see that coming? :)) but might be willing to work on DevTools or web stuff (especially back-end) too.
+
+# Bonus
+
+Some potentially interesting facts about me:
+
+- When I was younger, I took public speaking classes.
+- I like working out and practicing swimming.
+- I consider sales to be an interesting area.
+- I like spicy food, with some exceptions.
