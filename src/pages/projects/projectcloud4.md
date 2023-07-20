@@ -24,9 +24,9 @@ I helped our team create and maintain a small brand identity that allowed us to 
 
 I have also acted as a project manager for our first project, A.T.R.I.S., coordinating the team in defining the business and technical aspects of our solution, such as:
 
-- our business canvas
-- our technical opportunities and limitations, including potential partnerships
-- our pitching strategy
+- our business canvas;
+- our technical opportunities and limitations, including potential partnerships;
+- our pitching strategy.
 
 # Challenges
 

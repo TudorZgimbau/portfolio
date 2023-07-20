@@ -4,13 +4,19 @@ layout: "../../layouts/Project.astro"
 
 # Metadata
 
-Period: December 2021 - January 2022 \*
+Periods:
+
+- December 2021 - January 2022
+- July 2022 - present
 
 Role: Full-stack developer, founder
 
 Tech stack: Next.js, Ably, QStash, Redis, Auth.js
 
-\* For now, the project is not actively maintained, but there are plans to update and refactor some parts.
+Links:
+
+- [GitHub](https://github.com/Bytecrowds/bytecrowds)
+- [Hosted](https://www.bytecrowds.com)
 
 # Project description
 
@@ -26,9 +32,9 @@ Before settling on serverless, Bytecrowds's API was written in Go and the WebSoc
 
 I also believe in the idea of using a Redis-compatible database as the primary one, which brought [Upstash](https://upstash.com?utm_source=tudor-zgimbau.dev) in the stack to support both the bytecrowds database and the analytics engine.
 
-One of the most difficult problem I faced was the possible duplication of multiple clients text when trying to either pull the bytecrowd from the database or do a check on frontend to see if it was already fetched from other peers. After trying multiple ideas, I managed to introduce the following logic:
+One of the most difficult problem I faced was the possible duplication of multiple clients text when trying to either pull the bytecrowd from the database or do a check on front-end to see if it was already fetched from other peers. After trying multiple ideas, I managed to introduce the following logic:
 
-- When a request is made, it first goes through a Next.js API route which fetches the number of connected users from the Ably REST API
+- When a request is made, it first goes through a Next.js API route which fetches the number of connected users from the Ably REST API.
 - If there's no connected peer, the text will be inserted into the CodeMirror editor from the database. Otherwise, it will be fetched when syncing with the other peer or peers.
 
 # The value I provided

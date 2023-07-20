@@ -101,7 +101,7 @@ Authoring these two projects in the context of being in my last year of high sch
 - How to work on adaptive scheduling and make accurate estimates
 - Python at a fairly advanced level and the current state of its ecosystem
 
-Last but not least, I want to thank everyone involved in the project: without everyone's help, these releases wouldn't be the same or wouldn't have happened at all! At some point recently, I had to quit my hands-on involvement in the projects, mainly because of my exams. The reason you are able to use the SDK's **today** is the amazing guys who took over!
+Last but not least, I want to thank everyone involved in the project: without everyone's help, these releases wouldn't be the same or wouldn't have happened at all! At some point recently, I had to quit my hands-on involvement in the projects, mainly because of my exams. The reason you are able to use the SDKs **today** is the amazing guys who took over!
 
 # Future plans
 

@@ -114,10 +114,10 @@ Building DevTools is hard, especially if your top priority is ROI. And, at the s
 
 Focus on the positives, and remember that, by improving the DX of your product, you can get:
 
-- a better representation of your company in developer communities
-- free, valuable feedback for both your core product (if applicable) and your developer-oriented tooling
-- insights and analytics about how your product is used
-- happy engineers, motivated business teams, etc :)
+- a better representation of your company in developer communities;
+- free, valuable feedback for both your core product (if applicable) and your developer-oriented tooling;
+- insights and analytics about how your product is used;
+- happy engineers, motivated business teams, etc. :).
 
 It's not all black-and-white so make sure to maintain healthy boundaries and balance every single decision your teams are making.
 
