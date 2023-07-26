@@ -3,15 +3,15 @@ const { title, description, link } = Astro.props;
 ---
 
 <div class="w-full flex flex-col gap-5 h-max px-10 mt-3">
-    <a
-        href={link}
-        class="text-4xl tracking-wider text-black dark:text-white flex-1 w-96 hover:underline opacity-80 underline-offset-1 hover:opacity-60 cursor-pointer"
-    >
-        {title}
-    </a>
-    <div class="">
-        <div class="text-xl">
-            {description}
-        </div>
+  <a
+    href={link}
+    class="text-4xl tracking-wider text-black dark:text-white flex-1 w-96 hover:underline opacity-80 underline-offset-1 hover:opacity-60 cursor-pointer"
+  >
+    {title}
+  </a>
+  <div class="">
+    <div class="text-xl">
+      {description}
     </div>
+  </div>
 </div>
