@@ -24,7 +24,9 @@ const { title } = Astro.props;
     <script>
       window.LogRocket && window.LogRocket.init("ptmrhf/portfolio-gjd15");
     </script>
-    <slot />
+    <div class="overflow-x-hidden">
+      <slot />
+    </div>
   </body>
 </html>
 <style is:global></style>
