@@ -1,6 +1,8 @@
 ---
 layout: "../../layouts/Project.astro"
 title: "Project Cloud4"
+description: "The project page of Project Cloud4, a software studio founded by high school students, bringing together various crafts to help in solving real-world social problems."
+keywords: "portfolio, project, software, studio, social causes, NGO"
 ---
 
 # Metadata
@@ -15,7 +17,7 @@ Tech stack: Next.js, Leaflet, daisyUI + project-specific stacks
 
 # Project description
 
-[Project Cloud4](https://www.projectcloud4.com) is a software group founded by high school students that focuses on creating software for various business or educational purposes.
+[Project Cloud4](https://www.projectcloud4.com) is a software studio founded by high school students, bringing together various crafts to help in solving real-world social problems.
 
 You can read more about our first project, A.T.R.I.S., [here](https://www.projectcloud4.com/atris)
 

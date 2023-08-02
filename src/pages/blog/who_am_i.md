@@ -1,6 +1,8 @@
 ---
 layout: "../../layouts/Post.astro"
 title: "Who am I?"
+description: "The career of x, from joining the founding team of a startup at 16 to launching 3 products by the age of 19. About passions, skills, contests, and lessons learned, including teaching young developers and writing."
+keywords: "career, story, professional experience, work, projects, contests"
 ---
 
 My name is Tudor Zgîmbău. I am a developer, author, and business enthusiast from Romania.
@@ -115,6 +117,6 @@ That being said, feel free to contact me at any time to have a tech chat. If you
 Some potentially interesting facts about me:
 
 - When I was younger, I took public speaking classes.
-- I like working out and practicing swimming.
+- I like working out and swimming.
 - I consider sales to be an interesting area.
 - I like spicy food, with some exceptions.
