@@ -1,1 +1,2 @@
-Design & code by [Luca Sainenco](https://github.com/LucaSain)
+Design by [Luca Sainenco](https://github.com/LucaSain).
+Code by Luca Sainenco and Tudor Zgîmbău.
