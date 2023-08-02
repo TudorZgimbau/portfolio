@@ -1,5 +1,8 @@
 ---
 layout: "../../layouts/Project.astro"
+title: "Bytecrowds"
+description: "The project page of Bytecrowds, an easy-to-use, real-time, serverless code-sharing platform with a minimalist design and its own analytics engine."
+keywords: "portfolio, project, real-time, code-sharing, serverless, minimalist"
 ---
 
 # Metadata
@@ -20,7 +23,7 @@ Links:
 
 # Project description
 
-[Bytecrowds](https://www.bytecrowds.com) is an easy to use serverless code sharing platform with minimalist design and its own analytics engine.
+[Bytecrowds](https://www.bytecrowds.com) is an easy-to-use, real-time, serverless code-sharing platform with a minimalist design and its own analytics engine.
 
 # My role
 
@@ -28,11 +31,11 @@ I have developed and maintained most of the Bytecrowds code, consulting with ind
 
 # Challenges
 
-Before settling on serverless, Bytecrowds's API was written in Go and the WebSockets server was a Node.js template from [Yjs](https://yjs.dev). From there, I have refactored the app to use serverless functions (Vercel serverless functions and Cloudflare Workers) and, with help from the wonderful team at [Ably](https://ably.com), managed to pull of an entirely serverless, auto-scaling, real-time CRDT-based text-sharing provider.
+Before settling on serverless, Bytecrowds's API was written in Go and the WebSockets server was a Node.js template from [Yjs](https://yjs.dev). From there, I have refactored the app to use serverless functions (Vercel serverless functions and Cloudflare Workers) and, with help from the wonderful team at [Ably](https://ably.com), managed to pull off an entirely serverless, auto-scaling, real-time CRDT-based text-sharing provider.
 
-I also believe in the idea of using a Redis-compatible database as the primary one, which brought [Upstash](https://upstash.com?utm_source=tudor-zgimbau.dev) in the stack to support both the bytecrowds database and the analytics engine.
+I also believe in the idea of using a Redis-compatible database as the primary one, which brought [Upstash](https://upstash.com?utm_source=tudor-zgimbau.dev) in the stack to support both the main database and the analytics engine.
 
-One of the most difficult problem I faced was the possible duplication of multiple clients text when trying to either pull the bytecrowd from the database or do a check on front-end to see if it was already fetched from other peers. After trying multiple ideas, I managed to introduce the following logic:
+One of the most difficult problems I faced was the possible duplication of multiple clients' text when trying to either pull the bytecrowd from the database or do a check on the front-end to see if it was already fetched from other peers. After trying multiple ideas, I managed to introduce the following logic:
 
 - When a request is made, it first goes through a Next.js API route which fetches the number of connected users from the Ably REST API.
 - If there's no connected peer, the text will be inserted into the CodeMirror editor from the database. Otherwise, it will be fetched when syncing with the other peer or peers.

@@ -1,20 +1,17 @@
 ---
-export interface Props {
-  title: string;
-}
-
-const { title } = Astro.props;
+const { frontmatter } = Astro.props;
 ---
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Astro description" />
+    <meta name="description" content={frontmatter.description} />
+    <meta name="keywords" content={frontmatter.keywords} />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
+    <title>{frontmatter.title}</title>
   </head>
   <body>
     <script
@@ -31,7 +28,7 @@ const { title } = Astro.props;
         href="/blog"
         class="absolute z-10 top-5 left-5 text-6xl text-black border-black p-2 dark:invert border-2 rounded-xl h-10 w-10 cursor-pointer"
       >
-        <img src="/back.svg" class="h-full" />
+        <img src="/back.svg" class="h-full" alt="back" />
       </a>
       <div class="prose mx-auto pt-10 dark:text-white">
         <slot />

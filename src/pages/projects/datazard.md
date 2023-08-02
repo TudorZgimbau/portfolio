@@ -1,5 +1,8 @@
 ---
 layout: "../../layouts/Project.astro"
+title: "DataZard"
+description: "The project page of DataZard, an ambitious brand analytics platform that automated online user feedback discovery, scrapping the internet to find available data, analyzing it with powerful AI models, and making business reports to help its customers."
+keywords: "portfolio, project, brand analytics, AI, natural language processing, data"
 ---
 
 # Metadata
