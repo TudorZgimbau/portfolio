@@ -1,44 +1,67 @@
 ---
-import Layout from "../layouts/Layout.astro";
 import Item from "../components/Item.astro";
 ---
 
-<Layout title="Tudor's projects">
-  <div
-    class="flex flex-col gap-14 pt-14 w-screen min-h-screen h-max bg-gradient-to-tr from-base-300 via-base-300 dark:via-black dark:to-black overflow-x-hidden"
-  >
-    <a
-      href="/"
-      class="absolute z-10 top-5 left-5 text-6xl p-2 dark:invert border-black border-2 rounded-xl h-10 w-10 cursor-pointer"
-    >
-      <img src="back.svg" class="h-full" />
-    </a>
-    <div class="prose mx-auto dark:prose-invert space-y-12">
-      <Item
-        title="upstash-redis"
-        link="/projects/upstash-redis"
-        description="an HTTP-based Redis client for Python."
-      />
-      <Item
-        title="upstash-ratelimit"
-        link="/projects/upstash-ratelimit"
-        description="an HTTP and Redis-based rate-limiting library for Python"
-      />
-      <Item
-        title="DataZard"
-        link="/projects/datazard"
-        description="an ambitious brand analytics platform that automated the online user feedback discovery, scrapping the internet to find available data, analysing it with powerful AI models and making business reports to help its customers"
-      />
-      <Item
-        title="Bytecrowds"
-        link="/projects/bytecrowds"
-        description="an easy to use serverless code sharing platform with minimalist design and its own analytics engine."
-      />
-      <Item
-        title="Project Cloud4"
-        link="/projects/projectcloud4"
-        description="a software group founded by high school students that focuses on creating software for various business or educational purposes."
-      />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Tudor Zgîmbău's projects and work experience showcase"
+    />
+    <meta name="keywords" content="showcase, tech, work" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Tudor Zgîmbău's projects and work experience showcase</title>
+  </head>
+  <body>
+    <script
+      src="https://cdn.lr-ingest.com/LogRocket.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      window.LogRocket && window.LogRocket.init("ptmrhf/portfolio-gjd15");
+    </script>
+    <div class="overflow-x-hidden">
+      <div
+        class="flex flex-col gap-14 pt-14 w-screen min-h-screen h-max bg-gradient-to-tr from-base-300 via-base-300 dark:via-black dark:to-black overflow-x-hidden"
+      >
+        <a
+          href="/"
+          class="absolute z-10 top-5 left-5 text-6xl p-2 dark:invert border-black border-2 rounded-xl h-10 w-10 cursor-pointer"
+        >
+          <img src="back.svg" class="h-full" />
+        </a>
+        <div class="prose mx-auto dark:prose-invert space-y-12">
+          <Item
+            title="upstash-redis"
+            link="/projects/upstash-redis"
+            description="an HTTP-based Redis client for Python."
+          />
+          <Item
+            title="upstash-ratelimit"
+            link="/projects/upstash-ratelimit"
+            description="an HTTP and Redis-based rate-limiting library for Python"
+          />
+          <Item
+            title="DataZard"
+            link="/projects/datazard"
+            description="an ambitious brand analytics platform that automated the online user feedback discovery, scrapping the internet to find available data, analysing it with powerful AI models and making business reports to help its customers"
+          />
+          <Item
+            title="Bytecrowds"
+            link="/projects/bytecrowds"
+            description="an easy to use serverless code sharing platform with minimalist design and its own analytics engine."
+          />
+          <Item
+            title="Project Cloud4"
+            link="/projects/projectcloud4"
+            description="a software group founded by high school students that focuses on creating software for various business or educational purposes."
+          />
+        </div>
+      </div>
     </div>
-  </div>
-</Layout>
+  </body>
+</html>

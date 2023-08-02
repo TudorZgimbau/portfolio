@@ -1,43 +1,67 @@
 ---
-import Layout from "../layouts/Layout.astro";
 import Item from "../components/Item.astro";
 ---
 
-<Layout title="Blog">
-  <div
-    class="flex flex-col gap-14 pt-14 w-screen min-h-screen h-max bg-gradient-to-tr from-base-300 via-base-300 dark:via-black dark:to-black overflow-x-hidden"
-  >
-    <a
-      href="/"
-      class="absolute z-10 top-5 left-5 text-6xl text-neutral p-2 dark:invert border-black border-2 rounded-xl h-10 w-10 cursor-pointer"
-    >
-      <img src="back.svg" class="h-full" />
-    </a>
-    <div class="prose mx-auto dark:prose-invert space-y-12">
-      <Item
-        title="Who am I?"
-        link="/blog/who_am_i"
-        description="July 11, 2023"
-      />
-      <Item
-        title="Building developer tools"
-        link="/blog/building_developer_tools"
-        description="July 11, 2023"
-      />
-      <Item
-        title="Realtime Code Sharing with Upstash Redis"
-        link="/blog/upstash2"
-        description="January 24, 2023"
-      />
-      <Item
-        title="Building a realtime emergency response system"
-        link="/blog/upstash1"
-        description="December 20, 2022"
-      />
-      <Item
-        title="Career and business posts on LinkedIn"
-        link="https://www.linkedin.com/in/tudor-zgîmbău-a85274234/recent-activity/all/"
-      />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Tudor Zgîmbău's blog: business and tech posts"
+    />
+    <meta name="keywords" content="blog, tech, business" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Tudor Zgîmbău's blog</title>
+  </head>
+  <body>
+    <script
+      src="https://cdn.lr-ingest.com/LogRocket.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      window.LogRocket && window.LogRocket.init("ptmrhf/portfolio-gjd15");
+    </script>
+    <div class="overflow-x-hidden">
+      <div
+        class="flex flex-col gap-14 pt-14 w-screen min-h-screen h-max bg-gradient-to-tr from-base-300 via-base-300 dark:via-black dark:to-black overflow-x-hidden"
+      >
+        <a
+          href="/"
+          class="absolute z-10 top-5 left-5 text-6xl text-neutral p-2 dark:invert border-black border-2 rounded-xl h-10 w-10 cursor-pointer"
+        >
+          <img src="back.svg" class="h-full" />
+        </a>
+        <div class="prose mx-auto dark:prose-invert space-y-12">
+          <Item
+            title="Who am I?"
+            link="/blog/who_am_i"
+            description="July 11, 2023"
+          />
+          <Item
+            title="Building developer tools"
+            link="/blog/building_developer_tools"
+            description="July 11, 2023"
+          />
+          <Item
+            title="Realtime Code Sharing with Upstash Redis"
+            link="/blog/upstash2"
+            description="January 24, 2023"
+          />
+          <Item
+            title="Building a realtime emergency response system"
+            link="/blog/upstash1"
+            description="December 20, 2022"
+          />
+          <Item
+            title="Career and business posts on LinkedIn"
+            link="https://www.linkedin.com/in/tudor-zgîmbău-a85274234/recent-activity/all/"
+          />
+        </div>
+      </div>
     </div>
-  </div>
-</Layout>
+  </body>
+</html>
+<style is:global></style>
