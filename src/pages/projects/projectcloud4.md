@@ -1,5 +1,6 @@
 ---
 layout: "../../layouts/Project.astro"
+title: "Project Cloud4"
 ---
 
 # Metadata

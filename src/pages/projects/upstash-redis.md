@@ -1,5 +1,6 @@
 ---
 layout: "../../layouts/Project.astro"
+title: "upstash-redis"
 ---
 
 # Metadata

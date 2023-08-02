@@ -1,5 +1,6 @@
 ---
 layout: "../../layouts/Post.astro"
+title: "Who am I?"
 ---
 
 My name is Tudor Zgîmbău. I am a developer, author, and business enthusiast from Romania.

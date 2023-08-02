@@ -1,5 +1,6 @@
 ---
 layout: "../../layouts/Post.astro"
+title: "Building developer tools"
 ---
 
 # DevTools 1o1
