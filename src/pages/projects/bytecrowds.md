@@ -1,8 +1,8 @@
 ---
 layout: "../../layouts/Project.astro"
 title: "Bytecrowds"
-description: "The project page of Bytecrowds, a free, open-source, real-time platform that allows you to share and enforce authorization for code snippets. Adopting the serverless architecture and its own, privacy-respecting analytics engine, it offers a reliable and secure way to quickly obtain sharable links of code."
-keywords: "portfolio, project, real-time, code-sharing, serverless, minimalist"
+description: "The project page of Bytecrowds, a free, open-source, real-time platform that allows you to share and enforce authorization for code snippets. Adopting the serverless architecture and its own, privacy-respecting analytics engine, it offers a reliable and secure way to quickly obtain sharable links of your code."
+keywords: "portfolio, project, real-time, code-sharing, serverless, minimalist, analytics, code, snippets"
 ---
 
 # Metadata
