@@ -1,4 +1,5 @@
 User-agent: *
-Disallow:
+Disallow: /blog/upstash1
+Disallow: /blog/upstash2
 
 Sitemap: https://www.tudor-zgimbau.dev/sitemap-index.xml
