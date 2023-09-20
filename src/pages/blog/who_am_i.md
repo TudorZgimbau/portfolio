@@ -1,9 +1,12 @@
 ---
 layout: "../../layouts/Post.astro"
 title: "Who am I?"
-description: "The career of x, from joining the founding team of a startup at 16 to launching 3 products by the age of 19. About passions, skills, contests, and lessons learned, including teaching young developers and writing."
+description: "The career of Tudor Zgîmbău, from joining the founding team of a startup at 16 to launching 3 products by the age of 19. About passions, skills, contests, and lessons learned, including teaching young developers and writing."
 keywords: "career, story, professional experience, work, projects, contests"
 ---
+
+_This blog post will be regularly updated to keep up with my career changes_
+_- Tudor, September 20, 2023_
 
 My name is Tudor Zgîmbău. I am a developer, author, and business enthusiast from Romania.
 
@@ -48,7 +51,7 @@ I've also won a national web olympiad presenting the project and participating i
 
 Something I also wanted to do is mentor other young programmers trying to get started in this challenging yet exciting field. I believe in the importance of the personal aspect in the field of education: a mentor helped me kickstart my career, which made things far easier than simply reading tutorials and trying to figure things out myself.
 
-While I had plans to do it in college, I heard about a group of passionate young guys that were trying to learn various crafts such as web and game development. A teacher suggested I should talk with them so I gave it a shot and tried to mentor them by finding a common interest, which, at that time, was React.
+While I had plans to do it in college, I heard about a group of passionate young guys who were trying to learn various crafts such as web and game development. A teacher suggested I should talk with them so I gave it a shot and tried to mentor them by finding a common interest, which, at that time, was React.
 
 I tried preparing materials, guiding them live, leveling up my own skill set, and giving them general guidance for getting started in the field. Honestly, I'm still not sure I did a great job, but their feedback and my self-evaluation helped me improve my teaching & communication methods **a lot**.
 
@@ -64,13 +67,13 @@ In a team context where everyone is a stakeholder, business is rarely or never a
 
 Some of these things came naturally, and some of them posed troubles for me. I already had experience from my previous startup, but the hackathon required a mental model switch and the industry we were targeting (physical safety) had its own challenges.
 
-In the end, according to the jury, we were the best in our category so I imagine a did a fairly good job 😎. I encourage you to read more about our project, [A.T.R.I.S.](https://www.projectcloud4.com/atris): someday, sometime, it might save someone's life.
+In the end, according to the jury, we were the best in our category so I imagine we did a fairly good job 😎. I encourage you to read more about our project, [A.T.R.I.S.](https://www.projectcloud4.com/atris): someday, sometime, it might save someone's life.
 
 ## Writing
 
 A.T.R.I.S. also gave me the chance to start content writing with an emphasis on technical implementations. That's when I started my collaboration with [Upstash](https://upstash.com) and brought my first piece of content on their blog: [Building a realtime emergency response system](https://upstash.com/blog/realtime-emergency-response).
 
-I enjoyed the combination of technical and creative work, which lead me to also write about the underlying benefits the serverless pattern brings to Bytecrowds: [Realtime Code Sharing with Upstash Redis](https://upstash.com/blog/realtime-code-sharing)
+I enjoyed the combination of technical and creative work, which led me to also write about the underlying benefits the serverless pattern brings to Bytecrowds: [Realtime Code Sharing with Upstash Redis](https://upstash.com/blog/realtime-code-sharing)
 
 # More business
 
@@ -78,7 +81,7 @@ Bored? Sorry, I felt the need to write a separate chapter for this.
 
 By winning the hackathon, our team qualified for a fast-track bootcamp, where product experts came to teach the art of prototyping and selling a business idea. Although it was the natural step for us after polishing our idea and technical plan, it was also quite different than my previous experience with building in tech: more about the user persona and less about the tech stack, more about the business and less about the technical implementation and, finally, more about pitching and marketing the idea properly than worrying about the lack of concrete plans.
 
-Quite a perspective shift, ain't it? Well, it turned out to be a real-life lesson about getting ideas to market and understanding how the **user** fits in a multitude of technical details.
+Quite a perspective shift, isn't it? Well, it turned out to be a real-life lesson about getting ideas to market and understanding how the **user** fits in a multitude of technical details.
 
 For me, it meant learning about how people with different backgrounds and passions (our team had designers, marketers, and front-end developers, among others) can team up to create wonderful **user experiences**. It wasn't easy, especially since "coordinating" different crafts was something we had to learn on the go, but it definitely was a valuable lesson that anyone planning to get involved in decision-making could benefit from.
 
@@ -96,9 +99,9 @@ Not waiting for too long, I contacted someone at Upstash and talked about creati
 
 And, as discouraging as that might sound, we made it through 🥳. A lot of hard work and an increasing adoption of AI technologies encouraged the project to continue and, after some very tough months, here's the announcement post: [Announcing Python Serverless Redis and Ratelimiting SDKs](https://upstash.com/blog/announcing-ratelimit-python).
 
-Noticed the `Ratelimiting` stuff? Thinking about limiting the requests-per-second of your serverless functions or long-running servers? The famous [upstash-ratelimit](https://github.com/upstash/ratelimit) now also comes in a Python version 😎.
+Notice the `Ratelimiting` stuff? Thinking about limiting the requests-per-second of your serverless functions or long-running servers? The famous [upstash-ratelimit](https://github.com/upstash/ratelimit) now also comes in a Python version 😎.
 
-Authoring these two projects in the context of being in my last year of high school and preparing for the national exams wasn't easy. I did a few mistakes, refactored a faulty implementation, and over-think at times. What I find important, however, is the stuff I learned from this, including:
+Authoring these two projects in the context of being in my last year of high school and preparing for the national exams wasn't easy. I made a few mistakes, refactored a faulty implementation, and overthink at times. What I find important, however, is the stuff I learned from this, including:
 
 - How to approach developer tooling
 - How to work on adaptive scheduling and make accurate estimates
@@ -110,7 +113,7 @@ Last but not least, I want to thank everyone involved in the project: without ev
 
 At the moment of writing this, I am not actively working on any project, besides doing some refactoring and improvements for Bytecrowds. I learned a lot in the last few years and decided to do an in-depth analysis of my career path, including the skills I should focus on and the way my experience fits in.
 
-That being said, feel free to contact me at any time to have a tech chat. If you're interested in my job status, however, I am not planning to work full-time until I get to know my college schedule but would be open to some freelance or part-time projects. Regarding the roles, I'm targeting the product area (did you see that coming? :)) but might be willing to work on DevTools or web stuff (especially back-end) too.
+That being said, feel free to contact me at any time to have a tech chat. If you're interested in my job status, however, I am not planning to work full-time until I get to know my college schedule (I'm getting a degree in Management as part of the economic studies area) but would be open to some freelance or part-time projects. Regarding the roles, I'm targeting the project management area (did you see that coming? :)), but would be willing to join product and other teams too if the opportunity is great.
 
 # Bonus
 
