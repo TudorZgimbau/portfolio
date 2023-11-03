@@ -8,6 +8,9 @@ keywords: "career, story, professional experience, work, projects, contests"
 _This blog post will be regularly updated to keep up with my career changes_
 _- Tudor, September 20, 2023_
 
+_Last update_
+_November 3, 2023_
+
 My name is Tudor Zgîmbău. I am a developer, author, and business enthusiast from Romania.
 
 If you came here to learn about my technical skills and tech stack, please check my [GitHub](https://github.com/TudorZgimbau). If you want the whole story, continue reading.
@@ -113,7 +116,9 @@ Last but not least, I want to thank everyone involved in the project: without ev
 
 At the moment of writing this, I am not actively working on any project, besides doing some refactoring and improvements for Bytecrowds. I learned a lot in the last few years and decided to do an in-depth analysis of my career path, including the skills I should focus on and the way my experience fits in.
 
-That being said, feel free to contact me at any time to have a tech chat. If you're interested in my job status, however, I am not planning to work full-time until I get to know my college schedule (I'm getting a degree in Management as part of the economic studies area) but would be open to some freelance or part-time projects. Regarding the roles, I'm targeting the project management area (did you see that coming? :)), but would be willing to join product and other teams too if the opportunity is great.
+I'm also getting a degree in Management as part of the economic studies area and enjoying the process very much. Business and its related functions are something that interests me very much and I really want to explore and develop a skillset in this area; my desired future job would be a combination of this and tech.
+
+That being said, feel free to contact me at any time to have a tech chat. If you're interested in my job status, however, I am not planning to work full-time until I finish my degree but would be open to some freelance or part-time projects. Regarding the roles, I'm targeting the product area, but would be willing to join other teams too if the opportunity is great.
 
 # Bonus
 
