@@ -9,11 +9,11 @@ _This blog post will be regularly updated to keep up with my career changes_
 _- Tudor, September 20, 2023_
 
 _Last update_
-_November 3, 2023_
+_November 12, 2023_
 
-My name is Tudor Zgîmbău. I am a developer, author, and business enthusiast from Romania.
+My name is Tudor Zgîmbău. I'm a developer and business enthusiast from Romania. I've been part of a startup founding team, launched my own product, and collaborated on technical and business aspects for other projects.
 
-If you came here to learn about my technical skills and tech stack, please check my [GitHub](https://github.com/TudorZgimbau). If you want the whole story, continue reading.
+If you want the whole story, continue reading.
 
 I'll focus on the big picture and provide links to every project's page if you want to learn more or better understand the context.
 
@@ -116,9 +116,9 @@ Last but not least, I want to thank everyone involved in the project: without ev
 
 At the moment of writing this, I am not actively working on any project, besides doing some refactoring and improvements for Bytecrowds. I learned a lot in the last few years and decided to do an in-depth analysis of my career path, including the skills I should focus on and the way my experience fits in.
 
-I'm also getting a degree in Management as part of the economic studies area and enjoying the process very much. Business and its related functions are something that interests me very much and I really want to explore and develop a skillset in this area; my desired future job would be a combination of this and tech.
+I'm also getting a degree in Management as part of the economic studies area and enjoying the process very much. Business and its related functions are something that interests me very much and I really want to explore and develop a skillset in this area; my desired future job would be a combination of this and tech. My primary area of interest is developer tooling, and I would love to work on this kind of project!
 
-That being said, feel free to contact me at any time to have a tech chat. If you're interested in my job status, however, I am not planning to work full-time until I finish my degree but would be open to some freelance or part-time projects. Regarding the roles, I'm targeting the product area, but would be willing to join other teams too if the opportunity is great.
+That being said, feel free to contact me at any time to have a chat. If you're interested in my job status, I am not planning to work full-time until I finish my degree but would be open to some freelance or part-time projects. Regarding the roles, I'm targeting the product area, but would be willing to join other teams too if the opportunity is great.
 
 # Bonus
 
@@ -126,5 +126,6 @@ Some potentially interesting facts about me:
 
 - When I was younger, I took public speaking classes.
 - I like working out and swimming.
+- I wrote a literature review essay (in Romanian) and am interested in this area.
 - I consider sales to be an interesting area.
 - I like spicy food, with some exceptions.
