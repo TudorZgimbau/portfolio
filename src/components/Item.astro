@@ -2,7 +2,8 @@
 const { title, description, link } = Astro.props;
 ---
 
-<div class="w-full flex flex-col gap-5 h-max px-10 mt-3">
+<div class="w-screen flex flex-col gap-5 h-max mt-3">
+  <div class="w-full max-w-[95%] px-2">
   <a
     href={link}
     class="text-4xl tracking-wider text-black dark:text-white flex-1 w-96 hover:underline opacity-80 underline-offset-1 hover:opacity-60 cursor-pointer"
@@ -10,8 +11,9 @@ const { title, description, link } = Astro.props;
     {title}
   </a>
   <div class="">
-    <div class="text-xl">
+    <div class=" text-lg sm:max-w-[33%]">
       {description}
     </div>
   </div>
+</div>
 </div>
