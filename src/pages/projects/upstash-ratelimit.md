@@ -41,4 +41,6 @@ I believe the big picture is more important here: aside from the usual technical
 
 # The value I provided
 
-I quickly managed to start prototyping, understanding the existing codebase, and contributing to the common implementations, the code architecture, and the library's roadmap.
+Prototyping and launching the SDK quickly came in response to the increasing usage and development of AI-based applications, helping the Python developers adopt Redis in synergy with their existing and future stack.
+
+My path to delivering the MVP included understanding the existing codebase and contributing to the common implementations, the code architecture, and the library's roadmap.

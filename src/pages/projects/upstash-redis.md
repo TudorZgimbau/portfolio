@@ -41,6 +41,6 @@ Some of the trouble-causing aspects were:
 
 # The value I provided
 
-Prototyping and launching the SDKs quickly came in response to the increasing usage and development of AI-based applications, helping the Python developers adopt Redis in synergy with their existing and future stack.
+Prototyping and launching the SDK quickly came in response to the increasing usage and development of AI-based applications, helping the Python developers adopt Redis in synergy with their existing and future stack.
 
-Whether we talk about the infrastructure or community libraries of choice for your users, providing specialized support for their language can drastically improve your image and adoption.
+Aiming for fast iterations and rapid delivery, while also maintaining high quality, I learned from the already established projects and optimized the product for developer experience, making its usage easily follow best practices.
