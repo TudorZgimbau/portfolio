@@ -23,11 +23,7 @@ You can read more about our project, A.T.R.I.S., [here](https://www.projectcloud
 
 I helped our team create and maintain a small brand identity that allowed us to start working on our projects and pitch for a hackathon and a business bootcamp.
 
-I have also helped in making our first project, A.T.R.I.S. by working with the team in defining the business and technical aspects of our solution, working on multiple crafts such as Engineering and Product, and taking ownership of areas such as:
-
-- our technical opportunities and limitations;
-- potential partnerships;
-- and our pitching strategy.
+I have also helped in making our first project, A.T.R.I.S. by working with the team in defining the business and technical aspects of our solution, working on multiple crafts such as Engineering and Product, and taking ownership of areas such as our technical opportunities and limitations and our pitching strategy, while also contributing to the code & the architecture.
 
 # Challenges
 
