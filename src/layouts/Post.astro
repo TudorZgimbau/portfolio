@@ -1,4 +1,5 @@
 ---
+import SpeedInsights from "@vercel/speed-insights/astro";
 const { frontmatter } = Astro.props;
 ---
 
@@ -13,6 +14,13 @@ const { frontmatter } = Astro.props;
     <link rel="sitemap" href="/sitemap-index.xml" />
     <meta name="generator" content={Astro.generator} />
     <title>{frontmatter.title}</title>
+
+    <style is:global>
+      body,
+      html {
+        overflow-x: hidden;
+      }
+    </style>
   </head>
   <body>
     <script
@@ -36,10 +44,6 @@ const { frontmatter } = Astro.props;
       </div>
     </div>
   </body>
+
+  <SpeedInsights />;
 </html>
-<style is:global>
-  body,
-  html {
-    overflow-x: hidden;
-  }
-</style>

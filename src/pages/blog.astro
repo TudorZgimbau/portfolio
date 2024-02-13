@@ -1,5 +1,6 @@
 ---
 import Item from "../components/Item.astro";
+import SpeedInsights from "@vercel/speed-insights/astro";
 ---
 
 <!DOCTYPE html>
@@ -39,7 +40,7 @@ import Item from "../components/Item.astro";
           <Item
             title="Who am I?"
             link="/blog/who_am_i"
-            description="July 11, 2023"
+            description="Last update: February 13, 2024"
           />
           <Item
             title="Building developer tools"
@@ -64,4 +65,6 @@ import Item from "../components/Item.astro";
       </div>
     </div>
   </body>
+
+  <SpeedInsights />
 </html>
