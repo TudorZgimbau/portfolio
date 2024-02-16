@@ -7,7 +7,7 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   adapter: vercel({
-    analytics: true,
+    webAnalytics: true,
   }),
   site: "https://www.tudor-zgimbau.dev",
   integrations: [tailwind(), sitemap()],
