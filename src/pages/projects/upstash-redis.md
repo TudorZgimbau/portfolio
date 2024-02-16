@@ -13,12 +13,12 @@ Tech stack: Python, Redis
 
 Links:
 
-- [GitHub](https://github.com/upstash/redis-python)
-- [Announcement post](https://upstash.com/blog/announcing-ratelimit-python)
+- [**GitHub**](https://github.com/upstash/redis-python)
+- [**Announcement post**](https://upstash.com/blog/announcing-ratelimit-python)
 
 # Project description
 
-upstash-redis is a connectionless, HTTP-based Redis client for Python, designed to be used in serverless and serverful environments such as:
+**upstash-redis** is a connectionless, HTTP-based Redis client for Python, designed to be used in serverless and serverful environments such as:
 
 - AWS Lambda;
 - Vercel Serverless;
@@ -27,7 +27,7 @@ upstash-redis is a connectionless, HTTP-based Redis client for Python, designed 
 
 # My role
 
-I initially authored `upstash-redis` and was responsible for all of the early design decisions. I also advised on specific issues after handing off the project.
+I initially authored **upstash-redis** and was responsible for all of the early design decisions. I also advised on specific issues after handing off the project.
 
 # Challenges
 
