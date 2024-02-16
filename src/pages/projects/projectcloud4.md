@@ -15,15 +15,13 @@ Tech stack: Next.js, Leaflet, daisyUI
 
 # Project description
 
-[Project Cloud4](https://www.projectcloud4.com) was a software studio founded by high school students, bringing together various crafts to help solve real-world problems.
-
-You can read more about our project, A.T.R.I.S., [here](https://www.projectcloud4.com/atris)
+**Project Cloud4** was a software studio founded by high school students, bringing together various crafts to help solve real-world problems.
 
 # My role
 
 I helped our team create and maintain a small brand identity that allowed us to start working on our projects and pitch for a hackathon and a business bootcamp.
 
-I have also helped in making our first project, A.T.R.I.S. by working with the team in defining the business and technical aspects of our solution, working on multiple crafts such as Engineering and Product, and taking ownership of areas such as our technical opportunities and limitations and our pitching strategy, while also contributing to the code & the architecture.
+I have also helped in making our first project, **A.T.R.I.S.** by working with the team in defining the business and technical aspects of our solution, working on multiple crafts such as Engineering and Product, and taking ownership of areas such as our technical opportunities and limitations and our pitching strategy, while also contributing to the code & the architecture.
 
 # Challenges
 

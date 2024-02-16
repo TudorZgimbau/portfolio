@@ -13,12 +13,12 @@ Tech stack: Python, Redis, Lua
 
 Links:
 
-- [GitHub](https://github.com/upstash/ratelimit-python)
-- [Announcement post](https://upstash.com/blog/announcing-ratelimit-python)
+- [**GitHub**](https://github.com/upstash/ratelimit-python)
+- [**Announcement post**](https://upstash.com/blog/announcing-ratelimit-python)
 
 # Project description
 
-upstash-ratelimit is a connectionless rate limiting library for Python, designed to be used in serverless and serverful environments such as:
+**upstash-ratelimit** is a connectionless rate limiting library for Python, designed to be used in serverless and serverful environments such as:
 
 - AWS Lambda;
 - Vercel Serverless;
@@ -29,11 +29,11 @@ Featuring 3 different algorithms and many utility functions, the library aims to
 
 # My role
 
-I was responsible for creating an MVP port of the famous [upstash-ratelimit](https://github.com/upstash/ratelimit) TypeScript library, also bringing:
+I was responsible for creating an MVP port of the famous [**upstash-ratelimit**](https://github.com/upstash/ratelimit) TypeScript library, also bringing:
 
 - contributions to the Lua scripts the libraries depend on;
 - a new code design that made it easier to add new utility functions;
-- a feature called non-incremental metadata methods, based on [this issue](https://github.com/upstash/ratelimit/issues/17).
+- a feature called non-incremental metadata methods, based on [**this issue**](https://github.com/upstash/ratelimit/issues/17).
 
 # Challenges
 
