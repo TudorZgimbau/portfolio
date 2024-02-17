@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/Post.astro"
+layout: "../../layouts/Content.astro"
 title: "Realtime Code Sharing with Upstash Redis"
 ---
 
