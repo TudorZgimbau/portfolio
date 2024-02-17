@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/Post.astro"
+layout: "../../layouts/Content.astro"
 title: "Who am I?"
 description: "The career of Tudor Zgîmbău, from joining the founding team of a startup at 16 to launching 3 products by the age of 19. About passions, skills, contests, and lessons learned, including teaching young developers and writing."
 keywords: "career, story, professional experience, work, projects, contests"

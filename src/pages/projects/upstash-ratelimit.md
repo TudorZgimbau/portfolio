@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/Project.astro"
+layout: "../../layouts/Content.astro"
 title: "upstash-ratelimit"
 ---
 

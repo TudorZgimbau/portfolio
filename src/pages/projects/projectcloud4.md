@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/Project.astro"
+layout: "../../layouts/Content.astro"
 title: "Project Cloud4"
 description: "The project page of Project Cloud4, a software studio founded by high school students, bringing together various crafts to help solve real-world problems."
 keywords: "portfolio, project, software, studio, social causes, NGO"

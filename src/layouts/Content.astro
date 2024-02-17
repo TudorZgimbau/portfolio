@@ -1,7 +1,9 @@
 ---
 const { frontmatter } = Astro.props;
+
 import SpeedInsights from "@vercel/speed-insights/astro";
 ---
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -34,7 +36,7 @@ import SpeedInsights from "@vercel/speed-insights/astro";
       class="w-screen min-h-screen h-max bg-gradient-to-tr from-base-300 via-base-300 dark:via-black dark:to-black"
     >
       <a
-        href="/projects"
+        href={`/${Astro.url.pathname.split('/')[1]}`}
         class="absolute z-10 top-5 left-5 text-6xl text-black border-black p-2 dark:invert border-2 rounded-xl h-10 w-10 cursor-pointer"
       >
         <img src="/back.svg" class="h-full" alt="back" />
@@ -45,5 +47,5 @@ import SpeedInsights from "@vercel/speed-insights/astro";
     </div>
   </body>
 
-  <SpeedInsights />
+  <SpeedInsights />;
 </html>

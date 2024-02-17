@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/Post.astro"
+layout: "../../layouts/Content.astro"
 title: "Building a realtime emergency response system"
 ---
 

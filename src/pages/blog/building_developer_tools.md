@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/Post.astro"
+layout: "../../layouts/Content.astro"
 title: "Building developer tools"
 description: "This blog post walks you through the challenges and solutions to building developer tools (DevTools) from prototyping to production, covering multiple areas of interest such as product, engineering, and project management. It represents a comprehensive guide to maximizing the developer experience quality of products for startups and not only."
 keywords: "developer experience, devtools, prototyping, releasing, tech, business"
