@@ -4,8 +4,7 @@ const { frontmatter } = Astro.props;
 import SpeedInsights from "@vercel/speed-insights/astro";
 ---
 
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -27,8 +26,7 @@ import SpeedInsights from "@vercel/speed-insights/astro";
   <body>
     <script
       src="https://cdn.lr-ingest.com/LogRocket.min.js"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     <script>
       window.LogRocket && window.LogRocket.init("ptmrhf/portfolio-gjd15");
     </script>
@@ -36,12 +34,14 @@ import SpeedInsights from "@vercel/speed-insights/astro";
       class="w-screen min-h-screen h-max bg-gradient-to-tr from-base-300 via-base-300 dark:via-black dark:to-black"
     >
       <a
-        href={`/${Astro.url.pathname.split('/')[1]}`}
+        href={`/${Astro.url.pathname.split("/")[1]}`}
         class="absolute z-10 top-5 left-5 text-6xl text-black border-black p-2 dark:invert border-2 rounded-xl h-10 w-10 cursor-pointer"
       >
         <img src="/back.svg" class="h-full" alt="back" />
       </a>
-      <div class="prose mx-auto pt-10 dark:text-white dark:prose-a:text-white dark:prose-headings:text-white  dark:prose-strong:text-cyan-400">
+      <div
+        class="prose mx-auto pt-10 dark:text-white dark:prose-a:text-white dark:prose-headings:text-white dark:prose-strong:text-cyan-400"
+      >
         <slot />
       </div>
     </div>
